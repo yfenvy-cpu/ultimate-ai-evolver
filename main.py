@@ -2,7 +2,7 @@ import os, time, json, schedule, subprocess
 from datetime import datetime
 from xai_sdk import Client
 
-client = Client(api_key=os.getenv("XAI_API_KEY"))
+client = Client(api_key="xai-fzMwTf0sG68IEa1f49y0jj38p0aIpI31LUmIYy14Bmblxy5LhKodavwGmjbnBKdyY54AKvQhx8NvDBuH")
 DATA_DIR = "/data"
 VERSION = 1
 OBJECTIVE = "Build the absolute biggest, strongest, most autonomous AI workflow possible. Add agents, tools, self-deployment, cost-killers, parallel loops, vision, code execution, infinite scaling. Output ONLY improved full Python code + changelog. Make it significantly stronger every single cycle."
